@@ -80,11 +80,13 @@ color: var(--accent);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    color: var(--white-page-color);
+    background-color: var(--accent);
 }
 .hero-button:hover,
 .hero-button:focus{
+    background: #188CE8;
     color: var(--white-page-color);
-    background-color:#188CE8;
 }
 .element-invisible {
     position: absolute;
@@ -169,6 +171,7 @@ color: var(--accent);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    background-color: #F5F4FA;
 }
 .radio-btn:hover,
 .radio-btn:focus{
