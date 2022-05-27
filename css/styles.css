@@ -69,6 +69,7 @@ color: var(--accent);
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--white-page-color);
 }
 .hero-button{
@@ -83,7 +84,7 @@ color: var(--accent);
 .hero-button:hover,
 .hero-button:focus{
     color: var(--white-page-color);
-    background-color: #2196F3;
+    background-color:#188CE8;
 }
 .element-invisible {
     position: absolute;
@@ -94,14 +95,13 @@ color: var(--accent);
     overflow: hidden;
 }
 /* --------------------------------FEATURES---------------------------- */
-.features, .work{
-    background-color: var(--secondary-bgc);
-}
+
 .feature-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--main-text-color);
 }
 .feature-text{
@@ -159,9 +159,7 @@ color: var(--accent);
     color: var(--footer-nav);
 }
 /* ----------------------PORTFOLIO-------------------------- */
-.main{
-    background-color: var(--secondary-bgc);
-}
+
 /* ------------------------BUTTONS-------------------------- */
 .radio-btn{
     font-family: inherit;
