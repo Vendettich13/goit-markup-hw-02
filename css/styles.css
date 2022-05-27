@@ -1,10 +1,11 @@
+/* -------------------------------ROOTS-------------------------------- */
 :root{
     --main-text-color:#212121;
     --secondary-color:#757575;
     --white-page-color:#FFFFFF;
     --accent:#2196F3;
-    --main-bcgc:#FFFFFF;
-    --secondary-dcgc:#E5E5E5;
+    --main-bgc:#FFFFFF;
+    --secondary-bgc:#E5E5E5;
     --span-black:#000000;
     --footer-nav:rgba(255, 255, 255, 0.6);
 }
@@ -17,6 +18,16 @@ body{
 }
 ul{
     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* -------------------------------HEADER-------------------------- */
+.header{
+    background-color: var(--main-bgc);
+}
+.nav-link.current{
+    color: var(--accent);
 }
 .logo{
     font-family: 'Raleway';
@@ -48,6 +59,10 @@ color: var(--accent);
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
+/* ---------------------------HERO------------------------ */
+.hero{
+    background-color: #2F303A;
+}
 .hero-title{
     font-weight: 900;
     font-size: 44px;
@@ -57,14 +72,18 @@ color: var(--accent);
     color: var(--white-page-color);
 }
 .hero-button{
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus{
     color: var(--white-page-color);
-    background-color: var(--accent);
+    background-color: #2196F3;
 }
 .element-invisible {
     position: absolute;
@@ -73,6 +92,10 @@ color: var(--accent);
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+/* --------------------------------FEATURES---------------------------- */
+.features, .work{
+    background-color: var(--secondary-bgc);
 }
 .feature-title{
     font-weight: 700;
@@ -87,6 +110,7 @@ color: var(--accent);
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
+/* -------------------------WORK-------------------------------------- */
 .work-title, .team-title{
     font-weight: 700;
     font-size: 36px;
@@ -94,6 +118,10 @@ color: var(--accent);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+}
+/* ------------------------------------TEAM------------------------ */
+.team{
+    background-color: #F5F4FA;
 }
 .pre-team-text{
     font-weight: 500;
@@ -110,7 +138,15 @@ color: var(--accent);
         letter-spacing: 0.03em;
         color: var(--secondary-color);
 }
+/* ------------------------------------FOOTER------------------------- */
+.footer-logo{
+    color: var(--white-page-color);
+}
+.footer{
+    background-color: #2F303A;
+}
 .adress{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;
@@ -122,7 +158,13 @@ color: var(--accent);
     letter-spacing: 0.03em;
     color: var(--footer-nav);
 }
+/* ----------------------PORTFOLIO-------------------------- */
+.main{
+    background-color: var(--secondary-bgc);
+}
+/* ------------------------BUTTONS-------------------------- */
 .radio-btn{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -135,6 +177,7 @@ color: var(--accent);
     color: var(--white-page-color);
     background-color: var(--accent);
 }
+/* ------------------------------CARDS---------------------- */
 .pre-img-text{
     font-weight: 700;
     font-size: 18px;
